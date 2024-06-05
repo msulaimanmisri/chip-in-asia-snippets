@@ -33,6 +33,7 @@
         "registration_number" : "",
         "tax_number" : ""
     },
+    
     "purchase" : {
         "currency" : "",
         "products" : {
@@ -43,6 +44,7 @@
             "tax_percent" : "",
             "category" : ""
         },
+        
         "language" : "",
         "notes" : "",
         "debt" : "",
@@ -54,6 +56,7 @@
         "timezone" : "",
         "due_strict" : ""
     },
+    
     "brand_id" : "",
     "client_id" : "",
     "send_receipt" : true,
