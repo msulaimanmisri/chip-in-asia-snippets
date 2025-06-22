@@ -1,0 +1,140 @@
+{
+  "client": {
+    "client_type": null,
+    "email": "required_field",
+    "phone": "",
+    "full_name": "required_field",
+    "personal_code": "",
+    "legal_name": "",
+    "brand_name": "",
+    "registration_number": "",
+    "tax_number": "",
+    "bank_account": "",
+    "bank_code": "",
+    "street_address": "",
+    "city": "",
+    "zip_code": "",
+    "country": "",
+    "state": "",
+    "shipping_street_address": "",
+    "shipping_city": "",
+    "shipping_zip_code": "",
+    "shipping_country": "",
+    "shipping_state": "",
+    "cc": [],
+    "bcc": [],
+    "delivery_methods": [
+      {
+        "method": "email",
+        "options": {}
+      }
+    ]
+  },
+  "purchase": {
+    "currency": "MYR",
+    "products": [
+      {
+        "name": "required_field",
+        "price": required_field,
+        "quantity": "1.0000",
+        "discount": 0,
+        "tax_percent": "0.00",
+        "category": "",
+        "total_price_override": null
+      }
+    ],
+    "language": "en",
+    "notes": "",
+    "debt": 0,
+    "subtotal_override": null,
+    "total_tax_override": null,
+    "total_discount_override": null,
+    "total_override": null,
+    "total": 120,
+    "request_client_details": [],
+    "timezone": "UTC",
+    "due_strict": false,
+    "email_message": "",
+    "shipping_options": [],
+    "payment_method_details": {},
+    "has_upsell_products": false
+  },
+  "payment": null,
+  "issuer_details": {
+    "brand_name": "",
+    "website": "",
+    "legal_name": "",
+    "registration_number": "",
+    "tax_number": "",
+    "legal_street_address": "",
+    "legal_country": "MY",
+    "legal_city": "",
+    "legal_zip_code": "",
+    "bank_accounts": [
+      {
+        "bank_account": "",
+        "bank_code": ""
+      }
+    ]
+  },
+  "transaction_data": {
+    "payment_method": "",
+    "flow": "payform",
+    "extra": {},
+    "country": "",
+    "processing_tx_id": "",
+    "attempts": []
+  },
+  "status": "created",
+  "status_history": [
+    {
+      "status": "created",
+      "timestamp": 
+    }
+  ],
+  "viewed_on": null,
+  "force_recurring": false,
+  "company_id": "",
+  "is_test": true,
+  "user_id": null,
+  "brand_id": "",
+  "billing_template_id": null,
+  "order_id": null,
+  "client_id": "",
+  "send_receipt": false,
+  "is_recurring_token": false,
+  "recurring_token": null,
+  "skip_capture": false,
+  "reference_generated": "CH54",
+  "reference": "",
+  "issued": "2025-06-22",
+  "due": 1750558487,
+  "refund_availability": "none",
+  "refundable_amount": 0,
+  "currency_conversion": null,
+  "payment_method_whitelist": null,
+  "success_redirect": "",
+  "failure_redirect": "",
+  "cancel_redirect": "",
+  "success_callback": "",
+  "marked_as_paid": false,
+  "upsell_campaigns": [],
+  "referral_campaign_id": null,
+  "referral_code": null,
+  "referral_code_details": null,
+  "referral_code_generated": null,
+  "retain_level_details": null,
+  "can_retrieve": false,
+  "can_chargeback": false,
+  "creator_agent": "",
+  "platform": "api",
+  "product": "purchases",
+  "created_from_ip": "54.237.212.75",
+  "invoice_url": null,
+  "checkout_url": "TAKE_THIS_AS_REDIRECT_URL",
+  "direct_post_url": null,
+  "created_on": 1750554887,
+  "updated_on": 1750554887,
+  "type": "purchase",
+  "id": "fabf55f8-e4fc-4a7c-a9b2-e674c5be6e97"
+}
